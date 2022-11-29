@@ -3,6 +3,7 @@
 # and commit this file to your remote git repository to share the goodness with others.
 
 tasks:
-  - init: npm install && npm install @nestjs/cli
-    command: npm run start:dev
+  - name: Setup
+    init: npm install && npm i -g @nestjs/cli
+    command: npm run db:dev:up && npm run start:dev
 
