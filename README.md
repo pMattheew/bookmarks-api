@@ -1,3 +1,18 @@
+### pmattheew's notes
+This is an application that I did following the freeCodeCamp Nest.js course, it has CRUD capabilities and e2e tests.
+
+It gave me a lot of experience, these are some of the technologies that it uses:
+
+  - PostgreSQL used database;
+  - Docker to host the database;
+  - Passport for authentication;
+  - Prisma ORM to manipulate the database;
+  - Pactum for e2e request tests;
+  - Dotenv for multiple environment variables files, supporting a dev and a test environment;
+
+If you want to run it you can do it through this [Gitpod link](https://gitpod.io/#github.com/pmattheew/bookmarks-api) and Gitpod will do the rest of the configuration for you ;)
+
+---
 <p align="center">
   <a href="http://nestjs.com/" target="blank"><img src="https://nestjs.com/img/logo-small.svg" width="200" alt="Nest Logo" /></a>
 </p>
